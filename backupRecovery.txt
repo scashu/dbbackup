@@ -1,5 +1,8 @@
 ----------------- MYSQL ------------------------
+https://www.thegeekdiary.com/how-to-backup-and-restore-mysql-database/
+https://dev.mysql.com/doc/mysql-enterprise-backup/8.0/en/
 https://dev.mysql.com/doc/mysql-backup-excerpt/5.7/en/backup-types.html
+
 the MySQL Enterprise Backup product performs physical backups. 
 MySQL Enterprise Backup performs hot backup operations for MySQL databases. 
   The product is architected for efficient and reliable backups of tables created by the InnoDB storage engine. 
@@ -32,7 +35,9 @@ Logical backup methods have these characteristics:
 --------SQL Server -----------------------------
 https://www.veeam.com/wp-sql-server-backup-with-veeam.html
 https://ola.hallengren.com/    - SQL Server Maintenance Solution
-
+https://www.sqlshack.com/sql-server-transaction-log-backup-truncate-and-shrink-operations/
+https://sqlcontent.com/index.php/2008/06/17/how-to-truncate-mirrored-database-log-file/
+https://social.technet.microsoft.com/Forums/en-US/6747c065-c13d-4d62-a24f-ad245d61f3e7/how-to-shrink-file-of-mirrored-database?forum=sqldatabasemirroring
 
 
 --------SQL Server -----------------------------
