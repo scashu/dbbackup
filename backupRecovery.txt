@@ -1,0 +1,38 @@
+----------------- MYSQL ------------------------
+https://dev.mysql.com/doc/mysql-backup-excerpt/5.7/en/backup-types.html
+the MySQL Enterprise Backup product performs physical backups. 
+MySQL Enterprise Backup performs hot backup operations for MySQL databases. 
+  The product is architected for efficient and reliable backups of tables created by the InnoDB storage engine. 
+  For completeness, it can also back up tables from MyISAM and other storage engines.
+Physical backup tools include the mysqlbackup of MySQL Enterprise Backup for InnoDB or any other tables, 
+  or file system-level commands (such as cp, scp, tar, rsync) for MyISAM tables.
+
+Logical backup methods have these characteristics:
+  The backup is done by querying the MySQL server to obtain database structure and content information.
+  Backup and restore granularity is available at the server level (all databases), 
+    database level (all tables in a particular database), or table level. 
+    This is true regardless of storage engine.
+  The backup does not include log or configuration files, or 
+    other database-related files that are not part of databases.
+  Logical backups are performed with the MySQL server running. 
+    The server is not taken offline.
+  Logical backup tools include the mysqldump program and 
+    the SELECT ... INTO OUTFILE statement. 
+    These work for any storage engine, even MEMORY.
+  To restore logical backups, SQL-format dump files can be processed using the mysql client. 
+    To load delimited-text files, use the LOAD DATA statement or the mysqlimport client.
+    
+
+
+
+
+
+----------------- MYSQL ------------------------
+
+--------SQL Server -----------------------------
+https://www.veeam.com/wp-sql-server-backup-with-veeam.html
+https://ola.hallengren.com/    - SQL Server Maintenance Solution
+
+
+
+--------SQL Server -----------------------------
